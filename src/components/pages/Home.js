@@ -1,5 +1,6 @@
 import "../../App.css";
 import Card from "../CardItem/Card";
+import Footer from "../Footer/Footer";
 import HeroSection from "../Hero/HeroSection";
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <>
       <HeroSection />
       <Card />
+      <Footer />
     </>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
+import "./Card.css";
 import { Link } from "react-router-dom";
 
 function CardItem(props) {
   return (
     <>
-      <li className="cards__items">
+      <li className="cards__item">
         <Link className="cards__items__link" to={props.path}>
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img className="cards__item__img" src={props.src} alt="Travel" />
